@@ -1,10 +1,12 @@
-import Header from "@components/Header";
-
-
+import ProductList from '@containers/ProductList';
+import Head from 'next/head';
 export default function Home() {
   return (
     <>
-      <Header/>
+      <Head>
+        <title>React NEXT</title>
+      </Head>
+      <ProductList />
     </>
   );
 }

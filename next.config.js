@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // swcMinify: true,
+  swcMinify: true,
+  images: {
+    domains: ['placeimg.com','api.escuelajs.co', 'api.lorem.space','wixmp.com', 'romapy']},
   // env:{
   //   customKey:'customValue'
   // },
